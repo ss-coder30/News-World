@@ -1,0 +1,19 @@
+{
+  "name": "news-world",
+  "version": "1.0.0",
+  "description": "News \u0001App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ss-coder30/News-World.git"
+  },
+  "author": "Shaurya Srivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ss-coder30/News-World/issues"
+  },
+  "homepage": "https://github.com/ss-coder30/News-World#readme"
+}
