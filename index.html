@@ -97,7 +97,7 @@
             console.log(r);
             totalPages = Math.ceil(r.totalResults/articlesPerPage)
 
-            pre.href=`/?q=${query}&pageno=${page-1}`
+            pre.href=`/?q=${query}&pageno=${page-1} `
             next.href=`/?q=${query}&pageno=${page+1}`
 
             let str = " "
