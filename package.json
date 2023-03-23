@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ss-coder30/News-World/issues"
   },
-  "homepage": "https://github.com/ss-coder30/News-World#readme"
+  "homepage": "https://github.com/ss-coder30/News-World#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
