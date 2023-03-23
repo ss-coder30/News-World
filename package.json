@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "my_script_to_build"
+    "build": "my_script_to_build",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
