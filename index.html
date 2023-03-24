@@ -103,7 +103,7 @@
             let str = " "
             for(let item of r.articles){
                 str = str + `<div class="card m-4" style="width: 18rem;">
-                    <img src="${item.urlToImage}" class="card-img-top" alt="#">
+                    <img src="${item.urlToImage == null ? "https://t3.ftcdn.net/jpg/04/29/42/42/360_F_429424279_dokEFwnSoJeOKpqvV1ttXum8piESsF5L.jpg" : item.urlToImage}" class="card-img-top" alt="#">
                     <div class="card-body">
                       <h5 class="card-title">${item.title}</h5>
                       <span> <b><u>Source</b></u> : ${item.source.name}</span>
